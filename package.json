@@ -1,0 +1,32 @@
+{
+  "name": "ynaptest",
+  "version": "1.0.0",
+  "description": "YNAP Group Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp valid",
+    "serve": "gulp serve",
+    "dev": "gulp serve:dev",
+    "build": "gulp build",
+    "validate-css": "gulp valid-css"
+  },
+  "author": "Ettore Ciprian <cipettaro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-validator": "0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-w3c-css": "^1.0.1",
+    "path": "^0.12.7",
+    "prettyjson": "^1.2.1",
+    "yargs": "^8.0.2"
+  }
+}

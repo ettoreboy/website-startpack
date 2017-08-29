@@ -1,0 +1,24 @@
+/**
+* Main file for style rules
+*
+**/
+@import "_normalize";
+@import "_mixins";
+@import "_layout";
+
+@include font-face("knoc29", "../../assets/fonts/knoc29jl-webfont");
+@include font-face("knock49", "../../assets/fonts/knock49jl-webfont");
+
+body {
+    font-family: "knoc29";
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a {
+ font-size: 22px;
+ font-weight: bold;
+}
